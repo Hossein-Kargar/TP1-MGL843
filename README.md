@@ -60,4 +60,15 @@ npm run dev -- <commande> [arguments]
 - Afficher l'aide :
   - `npm start -- help`
 
+## Tests
+
+Pour exécuter les tests (Jest) :
+
+```
+npm test
+```
+
+Les tests couvrent la création, la recherche, l’exportation et la liste des notes. Un rapport de couverture est généré dans le dossier `coverage`.
+
+
 Les notes sont stockées dans le fichier `notes.json` à la racine du projet.
